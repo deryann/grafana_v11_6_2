@@ -7,6 +7,7 @@ export const SPANISH_SPAIN = 'es-ES';
 export const GERMAN_GERMANY = 'de-DE';
 export const BRAZILIAN_PORTUGUESE = 'pt-BR';
 export const CHINESE_SIMPLIFIED = 'zh-Hans';
+export const CHINESE_TRADITIONAL = 'zh-Hant';
 export const PSEUDO_LOCALE = 'pseudo';
 
 export const DEFAULT_LANGUAGE = ENGLISH_US;
@@ -62,6 +63,14 @@ export const LANGUAGES: LanguageDefinition[] = [
     name: '中文（简体）',
     loader: {
       grafana: () => import('../../../locales/zh-Hans/grafana.json'),
+    },
+  },
+
+  {
+    code: CHINESE_TRADITIONAL,
+    name: '正體中文',
+    loader: {
+      grafana: () => import('../../../locales/zh-Hant/grafana.json'),
     },
   },
 
