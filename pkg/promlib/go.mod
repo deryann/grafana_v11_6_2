@@ -10,8 +10,8 @@ require (
 	github.com/prometheus/common v0.62.0
 	github.com/prometheus/prometheus v0.301.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/otel v1.35.0
-	go.opentelemetry.io/otel/trace v1.35.0
+	go.opentelemetry.io/otel v1.37.0
+	go.opentelemetry.io/otel/trace v1.37.0
 	k8s.io/apimachinery v0.32.1
 )
 
@@ -36,7 +36,7 @@ require (
 	github.com/fatih/color v1.17.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/getkin/kin-openapi v0.132.0 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
@@ -104,7 +104,7 @@ require (
 	go.opentelemetry.io/contrib/samplers/jaegerremote v0.28.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.35.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.35.0 // indirect
-	go.opentelemetry.io/otel/metric v1.35.0 // indirect
+	go.opentelemetry.io/otel/metric v1.37.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.35.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.35.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.6.0 // indirect
